@@ -23,6 +23,15 @@ namespace JSI.Scenario {
 
             // methods
             public override void handleKeyDown(KeyCode kc) {
+                JSIApp app = (JSIApp)this.mScenario.getApp();
+                switch (kc) {
+                    case KeyCode.LeftControl:
+                        XCmdToChangeScene.execute(app,
+                            JSINavigateScenario.RotateReadyScene.getSingleton(),
+                            this);
+                        break;
+                }
+
             }
 
             public override void handleKeyUp(KeyCode kc) {

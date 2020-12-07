@@ -4,10 +4,15 @@ using UnityEngine;
 namespace JSI {
     public class JSIApp : XApp {
         //fields
+        private JSIPerspCameraPerson mPerspCameraPerson = null;
+        public JSIPerspCameraPerson getPerspCameraPerson()
+        {
+            return this.mPerspCameraPerson;
+        }
         private JSIGrid mGrid = null;
         
         public override XLogMgr getLogMgr() {
-            throw new System.NotImplementedException();
+            return this.mLogMgr;
         }
 
         private JSIPenMarkMgr mPenMarkMgr = null;
@@ -16,6 +21,8 @@ namespace JSI {
         }
 
         private XScenarioMgr mScenarioMgr = null;
+        private XLogMgr mLogMgr = null;
+
 
         public override XScenarioMgr getScenarioMgr() {
             return this.mScenarioMgr;
@@ -30,9 +37,12 @@ namespace JSI {
         private void Start() {
             //Debug.Log("Hello, World!");
             this.mGrid = new JSIGrid();
+            this.mPerspCameraPerson = new JSIPerspCameraPerson();
             ////////////
             this.mPenMarkMgr = new JSIPenMarkMgr();
             this.mScenarioMgr = new JSIScenarioMgr(this);
+            this.mLogMgr = new XLogMgr();
+            mLogMgr.setPrintOn(true);
 
             this.mKeyEventSource = new JSIKeyEventSource();
             this.mMouseEventSource = new JSIMouseEventSource();
