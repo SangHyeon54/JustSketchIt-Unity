@@ -22,6 +22,9 @@ namespace JSI.Scenario {
         protected override void addScenes() {
             this.addScene(JSINavigateScenario.RotateReadyScene.createSingleton(this));
             this.addScene(JSINavigateScenario.TumbleCameraScene.createSingleton(this));
+            this.addScene(JSINavigateScenario.PanReadyScene.createSingleton(this));
+            this.addScene(JSINavigateScenario.DollyCameraScene.createSingleton(this));
+            
         }
     }
 }
