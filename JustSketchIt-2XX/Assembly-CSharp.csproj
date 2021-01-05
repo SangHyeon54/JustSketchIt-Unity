@@ -36,26 +36,21 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppCircle3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppNoGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppObject.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppObject3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppPolyline3D.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSIDefaultScenario.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSIDefaultSceneario.ReadyScene.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSIEmptyScenario.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSIEmptySceneario.EmptyScene.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSINavigateScenario.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSINavigateSceneario.DollyCameraScene.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSINavigateSceneario.PanReadyScene.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSINavigateSceneario.RotateReadyScene.cs" />
-     <Compile Include="Assets\Scripts\JSI\AppObject\Scenario\JSINavigateSceneario.TumbleCameraScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppRect3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDoSomething.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDollyCamera.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToTumbleCamera.cs" />
+     <Compile Include="Assets\Scripts\JSI\Geom\JSICircle3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIGeom.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIPolyline3D.cs" />
+     <Compile Include="Assets\Scripts\JSI\Geom\JSIRect3D.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIApp.cs" />
      <Compile Include="Assets\Scripts\JSI\JSICameraPerson.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIEventListener.cs" />
@@ -67,6 +62,19 @@
      <Compile Include="Assets\Scripts\JSI\JSIPerspCameraPerson.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIScenarioMgr.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIDefaultScenario.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIDefaultSceneario.ReadyScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEditStandingCardScenario.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEditStandingCardSceneario.MoveStandingCardScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEditStandingCardSceneario.RotateStandingCardScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEditStandingCardSceneario.ScaleStandingCardScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEmptyScenario.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSIEmptySceneario.EmptyScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSINavigateScenario.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSINavigateSceneario.DollyCameraScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSINavigateSceneario.RotateReadyScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSINavigateSceneario.TranslateReadyScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\Scenario\JSINavigateSceneario.TumbleCameraScene.cs" />
      <Compile Include="Assets\Scripts\X\XApp.cs" />
      <Compile Include="Assets\Scripts\X\XCmdToChangeScene.cs" />
      <Compile Include="Assets\Scripts\X\XExecutable.cs" />
