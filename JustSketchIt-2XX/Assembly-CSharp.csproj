@@ -36,23 +36,31 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppCircle2D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppCircle3D.cs" />
+     <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppGeom2D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppNoGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppObject.cs" />
+     <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppObject2D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppObject3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppPolyline3D.cs" />
      <Compile Include="Assets\Scripts\JSI\AppObject\JSIAppRect3D.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToCreateEmptyStandingCard.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDoSomething.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDollyCamera.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToRotateStandingCard.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToTumbleCamera.cs" />
+     <Compile Include="Assets\Scripts\JSI\Geom\JSICircle2D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSICircle3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIGeom.cs" />
+     <Compile Include="Assets\Scripts\JSI\Geom\JSIGeom2D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIGeom3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIPolyline3D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSIRect3D.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIApp.cs" />
      <Compile Include="Assets\Scripts\JSI\JSICameraPerson.cs" />
+     <Compile Include="Assets\Scripts\JSI\JSICursor2D.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIEventListener.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIGrid.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIKeyEventSource.cs" />
@@ -62,6 +70,9 @@
      <Compile Include="Assets\Scripts\JSI\JSIPerspCameraPerson.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIScenarioMgr.cs" />
      <Compile Include="Assets\Scripts\JSI\JSIScene.cs" />
+     <Compile Include="Assets\Scripts\JSI\JSIStandingCard.cs" />
+     <Compile Include="Assets\Scripts\JSI\JSIStandingCardMgr.cs" />
+     <Compile Include="Assets\Scripts\JSI\JSIUtil.cs" />
      <Compile Include="Assets\Scripts\JSI\Scenario\JSIDefaultScenario.cs" />
      <Compile Include="Assets\Scripts\JSI\Scenario\JSIDefaultSceneario.ReadyScene.cs" />
      <Compile Include="Assets\Scripts\JSI\Scenario\JSIEditStandingCardScenario.cs" />
