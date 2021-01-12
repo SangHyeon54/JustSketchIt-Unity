@@ -49,7 +49,11 @@
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToCreateEmptyStandingCard.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDoSomething.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToDollyCamera.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToMoveStandingCard.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToRotateStandingCard.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToScaleStandingCard.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToSelectSmallestStandingCardByScaleHandle.cs" />
+     <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToSelectSmallestStandingCardByStand.cs" />
      <Compile Include="Assets\Scripts\JSI\Cmd\JSICmdToTumbleCamera.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSICircle2D.cs" />
      <Compile Include="Assets\Scripts\JSI\Geom\JSICircle3D.cs" />
