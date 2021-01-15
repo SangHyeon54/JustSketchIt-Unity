@@ -1,5 +1,6 @@
 using X;
 using UnityEngine;
+using JSI.Cmd;
 
 namespace JSI.Scenario {
     public partial class JSIDefaultScenario {
@@ -37,7 +38,8 @@ namespace JSI.Scenario {
                 JSIApp app = (JSIApp)this.mScenario.getApp();
                 switch (kc) {
                     case KeyCode.Return:
-                        JSICmdToCreateEmptyStandingCard.execute(app);
+                        // JSICmdToCreateEmptyStandingCard.execute(app);
+                        JSICmdToCreateStandingCard.execute(app);
                         break;
                 }
             }
@@ -57,6 +59,10 @@ namespace JSI.Scenario {
                         return;
                     }
                 }
+                
+                JSICmdToCreateCurPtCurve2D.execute(app);
+                XCmdToChangeScene.execute(app,
+                    JSIDrawScenario.DrawScene.getSingleton(), this);
             }
 
             public override void handlePenDrag(Vector2 pt) {

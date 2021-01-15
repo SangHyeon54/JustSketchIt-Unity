@@ -4,7 +4,7 @@ using JSI.AppObject;
 namespace JSI {
     public class JSICursor2D : JSIAppCircle2D {
         // contants
-        public static readonly float RADIUS = 5.0f;
+        public static readonly float RADIUS = 0.05f;
         public static readonly Color COLOR = Color.red;
         // public static readonly Color COLOR = Color.clear;
         

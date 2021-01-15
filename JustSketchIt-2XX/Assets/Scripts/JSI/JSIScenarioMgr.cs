@@ -11,6 +11,7 @@ namespace JSI {
         protected override void addScenarios() {
             JSIApp app = (JSIApp) this.mApp;
             this.addScenario(JSIDefaultScenario.createSingleton(app));
+            this.addScenario(JSIDrawScenario.createSingleton(app));
             this.addScenario(JSINavigateScenario.createSingleton(app));
             this.addScenario(JSIEditStandingCardScenario.createSingleton(app));
         }

@@ -4,8 +4,9 @@ using UnityEngine;
 using JSI.AppObject;
 using System.Collections.Generic;
 using JSI.Geom;
+using JSI.Scenario;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToScaleStandingCard : XLoggableCmd {
         

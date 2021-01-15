@@ -1,8 +1,8 @@
-﻿using System.Text;
+using System.Text;
 using X;
 using UnityEngine;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToTumbleCamera : XLoggableCmd {
         private Vector2 mPrevPt = Vector2.zero;

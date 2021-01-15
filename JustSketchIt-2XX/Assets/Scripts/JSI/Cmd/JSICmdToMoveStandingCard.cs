@@ -2,8 +2,9 @@
 using X;
 using UnityEngine;
 using JSI.AppObject;
+using JSI.Scenario;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToMoveStandingCard : XLoggableCmd {
         

@@ -1,5 +1,6 @@
 using X;
 using UnityEngine;
+using JSI.Cmd;
 
 namespace JSI.Scenario {
     public partial class JSIEditStandingCardScenario {

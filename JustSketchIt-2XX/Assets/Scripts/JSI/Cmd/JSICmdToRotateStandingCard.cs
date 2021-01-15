@@ -1,9 +1,10 @@
-﻿using System.Text;
+using System.Text;
 using X;
 using UnityEngine;
 using JSI.AppObject;
+using JSI.Scenario;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToRotateStandingCard : XLoggableCmd {
         

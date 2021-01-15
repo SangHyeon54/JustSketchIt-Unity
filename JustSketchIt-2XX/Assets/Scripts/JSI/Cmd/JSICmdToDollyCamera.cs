@@ -2,7 +2,7 @@
 using X;
 using UnityEngine;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToDollyCamera : XLoggableCmd {
 

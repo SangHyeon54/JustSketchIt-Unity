@@ -1,8 +1,9 @@
 ﻿using System.Text;
 using X;
 using UnityEngine;
+using JSI.Scenario;
 
-namespace JSI.Scenario
+namespace JSI.Cmd
 {
     internal class JSICmdToSelectSmallestStandingCardByStand : XLoggableCmd {
 

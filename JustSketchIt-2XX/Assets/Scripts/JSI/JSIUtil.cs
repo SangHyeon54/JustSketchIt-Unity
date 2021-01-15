@@ -2,6 +2,8 @@ using UnityEngine;
 
 namespace JSI {
     public static class JSIUtil {
+        public static readonly Vector2 VECTOR2_NAN = new Vector2(
+                float.NaN, float.NaN);
         public static void createDebugSphere(Vector3 pt) {
             GameObject debugSphere = GameObject.CreatePrimitive(
                 PrimitiveType.Sphere);
